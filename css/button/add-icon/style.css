@@ -21,33 +21,18 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.icon-button-right::after {
+.icon-button-right::after, .icon-button-left::before {
     content: 'cloud';
-    margin-left: 5px;
+    margin: 0 5px;
 }
-.image-button-right::after {
+.image-button-right::after, .image-button-left::before {
     content:'';
     display: inline-block;
     width: 24px;
     height: 24px;
     background-size: 24px 24px;
     background-repeat: no-repeat;
-    margin-left: 5px;
-    background-image: url("./icone.png");
-}
-
-.icon-button-left::before {
-    content: 'cloud';
-    margin-right: 5px;
-}
-.image-button-left::before {
-    content:'';
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    margin-right: 5px;
+    margin: 0 5px;
     background-image: url("./icone.png");
 }
 
